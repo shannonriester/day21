@@ -1,12 +1,46 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<title></title>
-		<link media="screen" href="main.css" rel="stylesheet"/>
-	</head>
-	<body>
 
-		<script src="main.js" charset="utf-8"></script>
-	</body>
+<head>
+	<meta charset="utf-8">
+	<title>ChatUp</title>
+	<link media="screen" href="main.css" rel="stylesheet" />
+</head>
+
+<body>
+	<section id="login-page">
+		<div id="modal-container">
+			<h1>ChatUp</h1>
+			<input id="login-input" type="text" name="name" value="" placeholder="Username">
+			<button id="login-btn" type="button" name="button">next</button>
+		</div>
+	</section>
+
+<div id="message-page">
+	<section id="user-history-page">
+		<div id="user-chat-container">
+			<ul>
+				<h3>Message History</h3>
+			</ul>
+		</div>
+	</section>
+
+	<section id="chat-page">
+		<div id="chat-container">
+			<ul class="entire-chat-box">
+				<li class="chat-box-container">
+				<!-- <ul class="single-chat-box">
+					<li>Name</li>
+					<li>MessageBox</li>
+					<li>timeStamp</li>
+				</ul> -->
+			</li>
+			</ul>
+		</div>
+	</section>
+</div>
+
+	<script src="main.js" charset="utf-8"></script>
+</body>
+
 </html>
