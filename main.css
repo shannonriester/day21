@@ -828,9 +828,55 @@ textarea {
       border: 1px solid purple;
       border-radius: 3px; }
 
+#message-page {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: #FFF; }
+  #message-page #user-history-page {
+    height: 100vh;
+    width: 25vw;
+    border-right: 1px solid purple; }
+  #message-page h3 {
+    font-size: 1em; }
+  #message-page #chat-page {
+    margin: 0;
+    padding: 0;
+    color: #FFF;
+    height: 100vh;
+    width: 100vw;
+    align-self: flex-start;
+    justify-content: center; }
+    #message-page #chat-page #chat-container {
+      display: flex;
+      height: 100vh;
+      width: 75vw;
+      padding: 0;
+      margin: 0; }
+    #message-page #chat-page #chatbox {
+      color: purple;
+      width: 100vw;
+      border: none;
+      border-radius: 3px;
+      padding: 0.5em 0 .1em .3em;
+      font-size: 2em;
+      align-self: flex-end;
+      margin-bottom: 1em;
+      background: #ECECEC; }
+    #message-page #chat-page #send-btn {
+      color: purple;
+      height: 3.5em;
+      width: 5em;
+      margin-left: 1em;
+      margin-bottom: 2em;
+      align-self: flex-end;
+      background: #ECECEC;
+      border: 1px solid purple;
+      border-radius: 3px; }
+
 body {
   margin: 0;
   padding: 0;
-  background: #53b4e0; }
+  background: #128A88; }
 
 /*# sourceMappingURL=main.css.map */
