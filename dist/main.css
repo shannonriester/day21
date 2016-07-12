@@ -844,35 +844,46 @@ textarea {
     padding: 0;
     color: #FFF;
     height: 100vh;
-    width: 100vw;
+    width: 75vw;
     align-self: flex-start;
     justify-content: center; }
     #message-page #chat-page #chat-container {
       display: flex;
-      height: 100vh;
+      height: 80vh;
       width: 75vw;
       padding: 0;
       margin: 0; }
-    #message-page #chat-page #chatbox {
-      color: purple;
-      width: 100vw;
-      border: none;
-      border-radius: 3px;
-      padding: 0.5em 0 .1em .3em;
-      font-size: 2em;
-      align-self: flex-end;
-      margin-bottom: 1em;
-      background: #ECECEC; }
     #message-page #chat-page #send-btn {
       color: purple;
       height: 3.5em;
       width: 5em;
-      margin-left: 1em;
-      margin-bottom: 2em;
       align-self: flex-end;
       background: #ECECEC;
       border: 1px solid purple;
-      border-radius: 3px; }
+      border-radius: 3px;
+      margin: 0; }
+    #message-page #chat-page .entire-chat-box {
+      padding: 0;
+      margin: 0;
+      width: 75vw;
+      list-style-type: none; }
+      #message-page #chat-page .entire-chat-box li {
+        display: flex;
+        align-items: center; }
+        #message-page #chat-page .entire-chat-box li .messageBody {
+          margin: 0; }
+        #message-page #chat-page .entire-chat-box li .timeStamP {
+          margin: 0; }
+
+.user-chat-interaction #chatbox {
+  color: purple;
+  width: 50vw;
+  border: none;
+  border-radius: 3px;
+  font-size: 2em;
+  align-self: flex-end;
+  background: #ECECEC;
+  margin: 0; }
 
 body {
   margin: 0;

@@ -20,13 +20,9 @@ Messages.prototype.save = function() {
             let $parentChatBox = $('.entire-chat-box');
             let $liMessage = $(`
             <li>
-              ${this.sender}
-            </li>
-            <li>
-              ${this.msgBody}
-            </li>
-            <li>
-              ${this.timeStamp}
+              <h3>${this.sender}</h3>
+              <p class="messageBody">${this.msgBody}</p>
+              <p class="timeStamP">${this.timeStamp}</p>
             </li>`);
             $parentChatBox.prepend($liMessage);
         }
